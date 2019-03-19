@@ -1,4 +1,4 @@
 package com.redcompany.red.hibernate.one.controller.command;
 
-public interface BasicComand {
+public interface BasicCommand {
 }

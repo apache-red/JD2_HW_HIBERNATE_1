@@ -1,5 +1,6 @@
 package com.redcompany.red.hibernate.one.controller.command;
 
+import com.redcompany.red.hibernate.one.controller.command.impl.*;
 import com.redcompany.red.hibernate.one.controller.command.util.CommandName;
 
 import java.util.HashMap;
@@ -12,7 +13,7 @@ public class CommandManager {
 
 
     public CommandManager() {
-  //      commands.put(CommandName.NO_SUCH_COMMAND, new NoSuchCommand());
+        commands.put(CommandName.NO_SUCH_COMMAND, new NoSuchCommand());
 
 
     }

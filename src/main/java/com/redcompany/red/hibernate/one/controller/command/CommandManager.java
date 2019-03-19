@@ -14,8 +14,9 @@ public class CommandManager {
 
     public CommandManager() {
         commands.put(CommandName.NO_SUCH_COMMAND, new NoSuchCommand());
-
-
+        commands.put(CommandName.ALL_USERS_COMMAND_JDBC, new UsersInformationJDBCCommand());
+        commands.put(CommandName.ALL_USERS_COMMAND_HIBERNATE, new UserInformationHibernateCommand());
+        commands.put(CommandName.GENERATE_USERS_COMMAND, new GenerateUsersCommand());
     }
 
 
